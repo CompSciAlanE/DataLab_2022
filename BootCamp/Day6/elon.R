@@ -39,7 +39,7 @@ graph<-ggplot(data = elonlikes, aes( x = year , y = totalLikes)) +
   geom_line() +
   labs(title = 'Number of likes over the years',
        subtitle = '2010-2022',
-       caption = 'He already peaked ;(',
+       caption = 'He already peaked ;( @DataLab2022 ',
        y = 'Number of likes',
        x = 'Year')+
   theme_cowplot()+
