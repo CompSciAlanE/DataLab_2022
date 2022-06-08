@@ -32,18 +32,22 @@ ggplot(data = elonhours, aes(x = hour, y = count, color = hour)) +
   theme(legend.position ='none')
 
 # Number of likes over the years
-elonlikes<-elon %>% mutate(year = year(date)) %>% group_by(year) %>% summarise(totalLikes = sum(nlikes))
+elonlikes<-elon %>% mutate(year = year(date)) %>% filter(year<2022) %>% group_by(year) %>% summarise(totalLikes = sum(nlikes))
   
 options(scipen=999)
-graph<-ggplot(data = elonlikes, aes( x = year , y = totalLikes)) +
+graph<-ggplot(data = elonlikes, aes( x = year, y = totalLikes)) +
   geom_line() +
+  geom_point()+
   labs(title = 'Number of likes over the years',
        subtitle = '2010-2022',
        caption = 'He already peaked ;( @DataLab2022 ',
        y = 'Number of likes',
        x = 'Year')+
   theme_cowplot()+
-  geom_area(fill = "lightblue")
+  geom_area(fill = "lightblue", alpha = .2) +
+  scale_x_binned( n.breaks = 10 )+
+  theme(axis.text.x =element_text(angle = 25) )
+  
 
 # loading the required libraries
 library("jpeg")
@@ -58,6 +62,7 @@ img_graph <- graph +
 # printing graph with image 
 print (img_graph)
 # Specify image path
+# Download any jpeg image and copy path to this pictue into path object
 path<-'D:/DataLab_2022/BootCamp/0129896_elon-musk.jpeg'
 img <- readJPEG(path, native = TRUE)
 # Add image the graph
