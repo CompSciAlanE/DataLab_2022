@@ -1,0 +1,43 @@
+---
+title: "Day 7 BootCamp"
+author: "Alan Espinoza"
+date: '2022-06-09'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+#### This is a subtitle
+```{r, echo = FALSE}
+# Two hash tags == Title
+# Three hash tags == Subtitle
+# Four hash tags == Smaller Title 
+```
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Conclusion
+ 
+ In conclusion, don't smoke _cigs_ or drink beers. And by the way, here's some cool code:
+```{r, echo = FALSE}
+pi*2+5-13/100
+number_of_interns<- 20
+```
+
+THe number of inters in the program is `r number_of_interns`. Isn't that cool?
