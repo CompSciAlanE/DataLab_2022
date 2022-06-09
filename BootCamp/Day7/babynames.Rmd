@@ -1,0 +1,102 @@
+---
+title: "Babynames"
+author: "Alan Espinoza"
+date: '2022-06-09'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# turn off echo (code isn't seen, just output) and turn off warning messages and normal messages
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(babynames)
+library(ggthemes)
+library(knitr)
+library(pander)
+```
+
+### **Getting to know** `babynames`
+
+Here are the names of the columns: `r pander(names(babynames))`
+
+and here are the first few rows:
+
+```{r}
+# Take a peek at babynames
+kable(head(babynames))
+```
+
+## **Lets count and plot some stuff**
+
+### By the numbers
+
+Counts of the numbers of males and females born (and registered!) in 1880:
+
+```{r}
+# Start exploring data-----------------------------------------------
+babynames %>% filter( year == 1880 ) %>% 
+  group_by(sex) %>% 
+  tally() %>% 
+  kable
+```
+
+
+Looking at numbers of males and females by the years! 
+
+```{r}
+# New data frame
+df<- babynames %>% 
+  group_by( year , sex ) %>% 
+  tally()
+
+head(df) %>% kable()
+
+# Plot this new data
+ggplot( data = df, aes( year, n, color = sex)) +
+  geom_line() + 
+  labs( title = 'Year vs Count of Unique Babie names by SEX',
+        subtitle = 'June 2 2022',
+        caption = 'alan.co',
+        y = 'Unique Baby Names')
+
+# Use facet_wrap to create a graph for each layer
+# In this case, one for female and one for male
+ggplot(data = df, aes(year , n)) +
+  geom_line() +
+  facet_wrap(~sex, ncol = 1) +
+  labs( title = " Year vs Count of Unique Baby names by SEX",
+        subtitle = 'June 2 2022',
+        caption = 'DataLab 2022',
+        x = 'Year',
+        y = 'Count of Unique Baby Names')
+
+```
+
+Getting rid of the props colum from the dataset
+
+```{r}
+# More examples using babynames data frame
+# Getting rid of prop column
+babynames<- babynames %>% 
+  select(-prop) 
+
+head(babynames) %>% kable()
+
+# Total number of babies of each sex per year
+babys_per_year<-babynames %>% group_by(sex,year) %>% 
+  summarise( count = sum(n))
+
+# Plot of over time, total amount of babies
+# Using color = sex
+ggplot( data = babys_per_year, aes ( year, count, color = sex)) +
+  geom_line() +
+  labs ( title = 'Total Amount of Babies over Years',
+         subtitle = 'June 2 2022',
+         caption = 'DataLab 2022',
+         x = 'Year',
+         y = 'Count')
+```
