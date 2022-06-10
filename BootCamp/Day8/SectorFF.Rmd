@@ -1,0 +1,253 @@
+---
+title: "Greenhouse Gas Emissions"
+author: "Tilina, Alan, Kenedi, and Shelby"
+date: '2022-06-10'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+# Libraries
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(reshape2)
+
+# Greenhouse gas emissions by country-year from 1750 - 2020
+ghg <- read_csv('https://raw.githubusercontent.com/ericmkeen/capstone/master/co2.csv')
+
+# Greenhouse gas emissions by country-year-sector from 1990 - 2018
+sectors <- read_csv('https://raw.githubusercontent.com/ericmkeen/capstone/master/co2_sectors.csv')
+```
+
+# 1. Present-Day Patterns in Co2 Emissions
+
+## Entities
+Entities with the Highest Co2 Emissions:
+```{r echo = FALSE}
+#Entity with highest co2
+ent <- sectors %>% 
+  filter(year >= 2000 
+         & entity != 'World' 
+         & entity != 'European Union (27)') %>% 
+  group_by(entity) %>% 
+  summarize(total = sum(co2, na.rm = TRUE)/1000000000) %>% 
+  arrange(desc(total)) %>%
+  head(10) %>% 
+  arrange(total) %>% 
+  mutate(entity = factor(entity, levels = entity))
+
+options(scipen = 999)
+```
+
+```{r echo = FALSE}
+ggplot(data = ent) +
+  geom_col(aes(x = entity, y = total, color = entity)) +
+  coord_flip() + 
+  labs(y = "Total Co2 in Billions", x = "Entity", title = "Entities With Highest Co2 Emissions") + 
+  scale_color_hue() +
+  theme(legend.position = "none")
+```
+
+Entities with the Lowest Co2 Emissions:
+```{r echo = FALSE}
+#Entity with lowest co2
+entLow <- sectors %>% 
+  filter(year >= 2000 
+         & entity != 'World' 
+         & entity != 'European Union (27)') %>% 
+  group_by(entity) %>% 
+  summarize(total = sum(co2, na.rm = TRUE)/1000000000) %>% 
+  arrange(total) %>%
+  head(10) %>% 
+  arrange(desc(total)) %>% 
+  mutate(entity = factor(entity, levels = entity))
+
+options(scipen = 999)
+```
+
+```{r echo = FALSE}
+ggplot(data = entLow) +
+  geom_col(aes(x = entity, y = total, color = entity)) +
+  coord_flip() + 
+  labs(y = "Total Co2 in Billions", x = "Entity", title = "Entities With Lowest Co2 Emissions") + 
+  scale_color_hue() +
+  theme(legend.position = "none")
+```
+
+
+## Sectors
+Sectors with the Highest and Lowest Co2 Emissions:
+```{r echo = FALSE}
+#Sector with highest/lowest
+sect <- sectors %>% 
+  filter(year >= 2000) %>% 
+  group_by(sector) %>% 
+  summarize(total = sum(co2, na.rm = TRUE)/1000000000) %>% 
+  arrange(total) %>%
+  mutate(sector = factor(sector, levels = sector))
+
+options(scipen = 999)
+```
+
+```{r echo = FALSE}
+ggplot(data = sect) +
+  geom_col(aes(x = sector, y = total, color = sector)) +
+  coord_flip() + 
+  labs(y = "Total Co2 in Billions", x = "Sector", title = "Economic Sectors and Their Co2 Emissions") + 
+  scale_color_hue() +
+  theme(legend.position = "none") 
+```
+
+## Countries
+Regions with highest Emissions:
+```{r}
+#Rename columns
+ghg1<-ghg %>% rename(country = Entity)
+#Read in data
+continents<-read_csv("https://github.com/alankespinoza/DataLab_2022/blob/master/BootCamp/Day8/csvData.csv?raw=true")
+#Merge with continent to have country to its continent
+data1<-merge(ghg1,continents, by = "country")
+
+#Data that will give me total co2 for each continent
+data1<-data1 %>% group_by(continent) %>% filter(Year >1999) %>% 
+  summarize(total = sum(`Annual CO2 emissions (zero filled)`))
+
+#Graph 
+ggplot(data = data1, aes(x = continent, y = total/1000000000, fill = continent)) +
+  geom_bar( stat = 'identity') +
+  theme(legend.position = 'none') +
+  labs(title = 'Cotinent with highest C02 Emission' ,
+         subtitle = 'June 10 2022' ,
+         caption = 'DataLab 2022 | Alan, Kenedi, Shelby, Tilina') +
+  ylab('Total in Billions') +
+  xlab('Continents')
+
+```
+
+
+
+# 2. Long-Term Trends in Carbon Emissions Over Time
+Sector-by-Sector:
+```{r echo = FALSE}
+sect <- sectors %>% 
+  group_by(sector, year) %>% 
+  summarize(total = sum(co2, na.rm = TRUE)/1000000000) 
+```
+
+```{r echo = FALSE}
+ggplot(data = sect) + 
+  geom_line(aes(x = year, y = total, color = sector)) +
+  labs(title = 'Long Term Carbon Emissions by Sector', 
+       x = 'Year', y = 'Co2 in Billions')
+```
+
+
+Country-by-Country:
+```{r echo = FALSE}
+count <- sectors %>% 
+  filter(entity == 'China' |
+           entity == 'United States' |
+           entity == 'India' |
+           entity == 'Russia' |
+           entity == 'Japan') %>% 
+  group_by(entity, year) %>% 
+  summarize(total = sum(co2, na.rm = TRUE)/1000000000)
+
+ggplot(data = count) + 
+  geom_line(aes(x = year, y = total, color = entity)) +
+  labs(title = 'Long Term Carbon Emissions by County', 
+       x = 'Year', y = 'Co2 in Billions')
+```
+
+
+Globally:
+
+```{r}
+# Figure out the long-term trends in CO2 emissions over year by region
+data <- merge(ghg1,continents,by = 'country')
+ltd <- data %>%
+  group_by(continent, Year) %>%
+  summarise(totalco2 = sum (`Annual CO2 emissions (zero filled)`))
+# Make a graph
+ggplot(data= ltd) +
+  geom_line(aes(x= Year, y = totalco2/1000000000, color= continent))+
+  labs(title= 'CO2 Emissions', y= 'Billions') +
+  scale_x_continuous(n.breaks= 16)
+
+# Figure out the long-term trends in CO2 emissions over year by region
+ltd <- data %>%
+  group_by(continent, Year) %>%
+  summarise(totalco2 = sum (`Annual CO2 emissions (zero filled)`))
+# Make a graph
+ggplot(data= ltd) +
+  geom_line(aes(x= Year, y = totalco2/1000000000, color= continent))+
+  labs(title= 'CO2 Emissions', y= 'Billions') +
+  scale_x_continuous(n.breaks= 16)
+# Rename the entity column 'country' and merge the same countries by continent
+ghg <- ghg %>%
+  rename(country= Entity)
+#data <- merge(ghg,continents,by = 'country')
+# Group by continent from greater than 2000 and total the amount of Co2 emissions
+newdata <- data %>%
+  group_by(continent) %>%
+  filter(Year >= 2000) %>%
+  summarise(co2total = sum(`Annual CO2 emissions (zero filled)`))
+# Make a graph of that^
+ggplot(data = newdata) +
+  geom_col(aes(x = continent, y= co2total/1000000000, fill= continent)) +
+  labs(title= 'Highest vs. Lowest CO2 Emissions', subtitle= 'From 2000 - 2018', y= 'Billions', x= 'Continent')+
+  theme(legend.position = 'none')
+options(scipen = 999)
+
+ggplot(data = newdata) +
+  geom_col(aes(x = continent, y= co2total/1000000000, fill= continent)) +
+  labs(title= 'Highest vs. Lowest CO2 Emissions', subtitle= 'From 2000 - 2020', y= 'Billions', x= 'Continent')+
+  theme(legend.position = 'none')
+options(scipen = 999)
+```
+
+
+# 3. Details on These Trends in the Top 5 Most-Emitting Countries
+
+```{r echo = FALSE, warning = FALSE, message = FALSE}
+library(dplyr)
+library(leaflet)
+library(ggplot2)
+library(ggthemes)
+library(flexdashboard)
+library(knitr)
+library(plotly)
+library(readr)
+
+#install.packages('plotly')
+
+sectors1<-sectors %>% rename(country = entity)
+#Find top 10 countries
+top10<-sectors1 %>% group_by(country) %>% filter(year >1999) %>% 
+  summarize(total = sum(co2, na.rm = TRUE)) %>% arrange(desc(total)) %>% head(10)
+#Find total for each sector in top 10 countries
+data2<-sectors1 %>% filter( country %in% top10$country) %>% group_by(country,sector) %>%
+  filter(year >1999) %>% summarize(total = sum(co2, na.rm = TRUE))
+```
+
+```{r echo = FALSE, warning = FALSE, message = FALSE}
+#graph
+g<-ggplot(data = data2, aes(x = country, y = total/1000000000, fill = sector)) +
+  geom_bar( stat = 'identity') +
+  labs(title = 'Top 10 Countries with highest C02 Emission' ,
+         subtitle = 'June 10 2022' ,
+         caption = 'DataLab 2022 | Alan, Kenedi, Shelby, Tilina') +
+  ylab('Total in Billions') +
+  xlab('Continents') +
+  theme(legend.position = 'none')
+#interactive!
+ggplotly(g)
+```
+
+
+

@@ -31,7 +31,6 @@ library(readr)
 
 options(scipen = 999)
 # Greenhouse gas emissions by country-year, 1750 - 2020
-continents<-read_csv("D:/DataLab_2022/BootCamp/Day8/csvData.csv")
 ghg <- read_csv('https://raw.githubusercontent.com/ericmkeen/capstone/master/co2.csv')
 
 # Greenhouse gas emissions by country-year-sector, 1990 - 2018
@@ -41,11 +40,11 @@ sectors <- read_csv('https://raw.githubusercontent.com/ericmkeen/capstone/master
 
 
 ```{r}
-
+#Numero 1
 #Rename columns
 ghg1<-ghg %>% rename(country = Entity)
-#wow
-continents<-read_csv("D:/DataLab_2022/BootCamp/Day8/csvData.csv")
+#Read in data
+continents<-read_csv("https://github.com/alankespinoza/DataLab_2022/blob/master/BootCamp/Day8/csvData.csv")
 #Merge with continent to have country to its continent
 data1<-merge(ghg1,continents, by = "country")
 
