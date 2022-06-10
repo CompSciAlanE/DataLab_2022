@@ -3,6 +3,7 @@ title: "Alan Espinoza CV"
 output: html_document
 date: '2022-06-09'
 ---
+
 *Headshot*: ![](D:/2_ExtraCurricular/5_Resume/20210917-DSC01720-Original.jpg){width=20%}
 
 # Expirience

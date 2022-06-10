@@ -1,0 +1,82 @@
+---
+title: "Malaria Report"
+author: "Alan Espinoza"
+date: '2022-06-09'
+output: html_document
+---
+
+*Map*: ![](D:\DataLab_2022\BootCamp\Day7\1200px-World-map-of-past-and-current-malaria-prevalence-world-development-report-2009.png)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidytext)
+library(gsheet)
+library(wordcloud2)
+library(sentimentr)
+library(lubridate)
+library(knitr)
+library(readr)
+library(kableExtra)
+library(tidyverse)
+library(gridExtra)
+library(DT)
+library(MASS)
+```
+
+
+```{r}
+pms <- read_csv('https://github.com/databrew/intro-to-data-science/blob/main/data/pms.csv?raw=true')
+```
+
+
+
+# **Introduction**
+
+This is a data set called `pms` that comes from Mozambique, where we see whether patients have
+malaria or not. With this information we also have a time stamp of when this happened, age, 
+gender etc.
+
+#### **Preview of data**
+```{r}
+kable(head(pms))
+```
+
+We will be going through the data and figure out which *age* has the most amount of people
+with malaria and what gender they are.
+
+## **Methods**
+
+I will be using Rstudio and a couple of packages to organize the data in a form to plot and show
+the findings.
+
+### **Plot 1**
+
+```{r}
+
+train<-pms %>% group_by(age,gender) %>% 
+  filter(malaria_diagnosis == 'Malaria') %>%
+  tally(name = 'Count')
+
+ggplot(data = train, aes( x = reorder(age,+Count), y = Count, fill = gender)) +
+  geom_col( position = 'dodge' ) +
+  xlab('Age Groups') +
+  labs( title = 'Count of people with Malaria by age group',
+          subtitle = 'June 09 2022',
+          caption = 'DataLab 2022')
+
+```
+
+## **Results**
+
+The group of people with the largest count of malaria is *girls between ages of 0-<5*. 
+
+
+
+

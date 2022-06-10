@@ -1,0 +1,70 @@
+---
+title: "Sinaloa Cartel from the past 10 years"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(leaflet)
+library(ggplot2)
+library(ggthemes)
+library(flexdashboard)
+library(knitr)
+library(plotly)
+#if(!file.exists('violence.RData')){
+ # download.file('https://github.com/databrew/intro-to-data-science/blob/main/data/GEDEvent_v21_1.RData?raw=true', #'violence.RData')
+#}
+load('GEDEvent_v21_1.RData')
+vio <- GEDEvent_v21_1; rm(GEDEvent_v21_1)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+vio1<-vio %>% filter( country == 'Mexico', id!=316145) 
+
+keep<-grep('Sinaloa Cartel', vio1$conflict_name)
+train <- vio1[keep,]
+
+train1<- train %>% group_by(year,conflict_name) %>% tally( name = 'Cuantos')
+
+g<-ggplot(data = train1, aes( x = year, y = Cuantos,fill = conflict_name)) +
+  geom_bar(stat = 'identity') +
+  theme(legend.position = 'none')+
+  xlab('Grupo')
+
+ggplotly(g)  
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+leaflet() %>% addTiles() %>% addCircleMarkers(data = train, clusterOptions = markerClusterOptions(), label = train$id)
+
+```
+
+### Chart C
+
+```{r}
+keep1<-grep('Cartel', vio1$conflict_name)
+train2 <- vio1[keep1,]
+
+
+
+ggplot(data = train2, aes(x = year), fill = 'red') +
+  geom_bar()
+
+
+```
+
