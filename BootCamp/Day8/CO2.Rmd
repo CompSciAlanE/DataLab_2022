@@ -1,0 +1,89 @@
+---
+title: "Environmental Issues"
+author: "Alan Espinoza"
+date: '2022-06-10'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+```
+
+
+
+```{r}
+
+#Our deliverable: a polished report with a nice presentation to go along with it. The report should show interesting things about …
+#(1) present-day patterns in GHG emissions (which regions/countries/economic sectors are the biggest emitters? Which emit the least?)
+#(2) long-term trends in carbon emissions over time (globally, country-by-county, and sector-by-sector);
+#(3) details on these trends in the top 5 most-emitting countries.
+
+library(dplyr)
+library(leaflet)
+library(ggplot2)
+library(ggthemes)
+library(flexdashboard)
+library(knitr)
+library(plotly)
+library(readr)
+
+options(scipen = 999)
+# Greenhouse gas emissions by country-year, 1750 - 2020
+continents<-read_csv("D:/DataLab_2022/BootCamp/Day8/csvData.csv")
+ghg <- read_csv('https://raw.githubusercontent.com/ericmkeen/capstone/master/co2.csv')
+
+# Greenhouse gas emissions by country-year-sector, 1990 - 2018
+sectors <- read_csv('https://raw.githubusercontent.com/ericmkeen/capstone/master/co2_sectors.csv')
+
+```
+
+
+```{r}
+
+#Rename columns
+ghg1<-ghg %>% rename(country = Entity)
+#wow
+continents<-read_csv("D:/DataLab_2022/BootCamp/Day8/csvData.csv")
+#Merge with continent to have country to its continent
+data1<-merge(ghg1,continents, by = "country")
+
+#Data that will give me total co2 for each continent
+data1<-data1 %>% group_by(continent) %>% filter(Year >1999) %>% 
+  summarize(total = sum(`Annual CO2 emissions (zero filled)`))
+
+#Graph 
+ggplot(data = data1, aes(x = continent, y = total/1000000000, fill = continent)) +
+  geom_bar( stat = 'identity') +
+  theme(legend.position = 'none') +
+  labs(title = 'Cotinent with highest C02 Emission' ,
+         subtitle = 'June 10 2022' ,
+         caption = 'DataLab 2022 | Alan, Kenedi, Shelby, Tilina') +
+  ylab('Total in Billions') +
+  xlab('Continents')
+
+#Top 10 countries and divided by sector by color
+#Rename column
+sectors1<-sectors %>% rename(country = entity)
+#Find top 10 countries
+top10<-sectors1 %>% group_by(country) %>% filter(year >1999) %>% 
+  summarize(total = sum(co2, na.rm = TRUE)) %>% arrange(desc(total)) %>% head(10)
+#Find total for each sector in top 10 countries
+data2<-sectors1 %>% filter( country %in% top10$country) %>% group_by(country,sector) %>%
+  filter(year >1999) %>% summarize(total = sum(co2, na.rm = TRUE))
+#graph
+g<-ggplot(data = data2, aes(x = country, y = total/1000000000, fill = sector)) +
+  geom_bar( stat = 'identity') +
+  labs(title = 'Top 10 Countries with highest C02 Emission' ,
+         subtitle = 'June 10 2022' ,
+         caption = 'DataLab 2022 | Alan, Kenedi, Shelby, Tilina') +
+  ylab('Total in Billions') +
+  xlab('Continents') +
+  theme(legend.position = 'none')
+#interactive!
+ggplotly(g)
+
+  
+
+```
