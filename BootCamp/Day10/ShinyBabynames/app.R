@@ -9,7 +9,7 @@ library(lubridate)
 library(babynames)
 babynames <- babynames
 
-# Define UI for app--------------------------------------------------
+# Define UI for application------------------------------------------
 ui <- fluidPage(
   
   # Application title
@@ -25,19 +25,17 @@ ui <- fluidPage(
                   value = min(babynames$year)),
       textInput('name',
                 'Type Name',
-                value = "Alan"),
-      
+                value = "Type here"
+      )
     ),
     
     # Show a plot of the generated distribution
-    mainPanel(id = 'tab',golem::activate_js(),
+    mainPanel(
       tabsetPanel(
-        tabPanel(
-                 h4('Unique Names Over Time'),
+        tabPanel(h4('Unique Names Over Time'),
                  plotOutput('distPlot'),
                  plotOutput('plot2')),
-        tabPanel(
-          h4('Search for a Name'),
+        tabPanel(h4('Search for a Name'),
                  plotOutput('text')
         )
       )
@@ -46,7 +44,7 @@ ui <- fluidPage(
 )
 
 
-# Define server logic------------------------------------------------
+# Define server logic -----------------------------------------------
 server <- function(input, output) {
   rv <- reactiveValues()
   
@@ -58,13 +56,6 @@ server <- function(input, output) {
     
     rv$bn1 <- babynames %>% 
       filter(year >= input$Years & name %in% input$name)
-    
-    if (input$tab == "Search for a Name"){
-      golem::invoke_js("showid", "name")
-    } else {
-      golem::invoke_js("hideid", "name")
-    }
-    
   })
   
   output$distPlot <- renderPlot({
