@@ -7,41 +7,58 @@ library(shiny)
 library(tidyverse)
 library(lubridate)
 library(babynames)
+library(shinythemes)
+library(plotly)
+library(DT)
+
 babynames <- babynames
 
 # Define UI for application------------------------------------------
-ui <- fluidPage(
+ui <- fixedPage(
   
   # Application title
-  titlePanel("Babynames"),
+  titlePanel("Babynames App"),theme = shinytheme("yeti"),
   
-  # Sidebar with a slider input for number of bins 
-  sidebarLayout(
-    sidebarPanel(
-      sliderInput("Years",
-                  "Select start year:",
-                  min = min(babynames$year),
-                  max = max(babynames$year),
-                  value = min(babynames$year)),
-      textInput('name',
-                'Type Name',
-                value = "Type here"
-      )
+  navbarPage(
+    h4("Navigation bar"),
+    tabPanel(h4('Unique Names Over Time'),
+             sliderInput("Years",
+                         "Select start year:",
+                         min = min(babynames$year),
+                         max = max(babynames$year),
+                         value = min(babynames$year)
+             ),
+             radioButtons("sex",
+                          "Select Gender",
+                          choices = c("F","M","Both")
+                          
+             ),
+             plotlyOutput('distPlot')
     ),
-    
-    # Show a plot of the generated distribution
-    mainPanel(
-      tabsetPanel(
-        tabPanel(h4('Unique Names Over Time'),
-                 plotOutput('distPlot'),
-                 plotOutput('plot2')),
-        tabPanel(h4('Search for a Name'),
-                 plotOutput('text')
-        )
-      )
-    )
+    tabPanel(h4("Search For a Name"),
+             sliderInput("year",
+                         "Select start year:",
+                         min = min(babynames$year),
+                         max = max(babynames$year),
+                         value = min(babynames$year)
+             ),
+             textInput('name',
+                       'Type Name',
+                       value = "Jacob"
+             ),
+             radioButtons("sex1",
+                          "Select Gender",
+                          choices = c("F","M","Both")
+                          
+             ),
+             plotlyOutput("text")
+    ),
+    tabPanel(h4("Raw Data"),
+             DT::dataTableOutput('rdt'))
   )
 )
+  
+
 
 
 # Define server logic -----------------------------------------------
@@ -49,43 +66,49 @@ server <- function(input, output) {
   rv <- reactiveValues()
   
   observe({
-    rv$df <- babynames %>% 
+    df<-babynames %>% 
       filter(year >= input$Years) %>% 
       group_by(year,sex) %>% 
-      tally()
+      tally() 
     
-    rv$bn1 <- babynames %>% 
-      filter(year >= input$Years & name %in% input$name)
+    if(input$sex!='Both'){
+      df<-df%>% filter(sex==input$sex)
+    }
+    rv$df<-df
+    
+    bn1<-babynames %>% 
+      filter(year >= input$year & name %in% input$name) 
+    
+    if(input$sex1!='Both'){
+      bn1<-bn1%>% filter(sex==input$sex1)
+    }
+    rv$bn1<-bn1
+    
   })
   
-  output$distPlot <- renderPlot({
+  output$distPlot <- renderPlotly({
     
-    
-    ggplot(data = rv$df, aes(x=year, y=n, color=sex))+
+    ggplotly(ggplot(data = rv$df, aes(x=year, y=n, color = sex ))+
       geom_line() +
       labs(title = 'Unique names over time', 
            subtitle = 'By sex', 
            caption = 'Ellie Davis',
            x = 'Year',
            y = '# of Unique Names')
-  })
-  output$plot2 <- renderPlot({
+    )
     
-    ggplot(data = rv$df, aes(x=year, y=n, color = sex)) +
-      geom_line() +
-      facet_wrap(~sex, ncol = 1) +
-      labs(x = 'Year', 
-           y = '# of Unique Names') +
-      theme(legend.position = 'none')
   })
   
-  output$text <- renderPlot({
-    ggplot( data = rv$bn1,
+  output$text <- renderPlotly({
+    ggplotly(ggplot( data = rv$bn1,
             aes( x = year, y = n, color = sex)) +
-      geom_point( )+
-      geom_line( )
+      geom_point( ) +
+      geom_line( ))
   })
   
+  output$rdt <- renderDataTable({
+    datatable( babynames, caption = "Babynames Raw Data")
+  })
 }
 
 # Run the application------------------------------------------------ 
