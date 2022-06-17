@@ -1,0 +1,6 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-09-28 08:03:21,1806,N/A,277,-0.1,12,Big Eyes,1,1,1,Janie Wray,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,Can't check now,NA,-129.38014924889,53.2374924743136,0.541294392997376,shore,8.56987357964743,1,1,7.2984
+2021-09-28 08:11:21,1807,N/A,311,-0.1,10,Big Eyes,1,1,1,Janie Wray,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,Can't check now,NA,-129.379323985007,53.2406669271107,0.639040767488034,shore,9.08443900257165,1,1,7.3304
+2021-09-28 09:01:58,1808,N/A,153,-0.1,8,Big Eyes,2,2,2,Janie Wray,BigEyes,Body,MarMam,Humpback,Milling,NA,-1,Can't check now,NA,-129.367129276178,53.2310807143666,0.726842142091256,shore,3.4900909835482,1,1,7.5439
+2021-09-28 14:23:49,1809,Farrant Shore (medium),336,3.8,0.55,Binocs,1,1,1,Eadin O'Mahony,Eye,Blow,MarMam,Humpback,Milling,NA,-1,No,NA,-129.382348807634,53.2506991779398,1.68110912878793,shore,7.04233826567954,1,1,6.84428333333333
+2021-09-28 17:10:22,1810,Gil Mtn (far),157,5.8,0.2,Big Eyes,1,1,1,Eadin O'Mahony,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,No,NA,-129.351268897138,53.2075499635946,3.54825424237708,shore,4.13956208074069,1,1,6.122

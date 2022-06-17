@@ -1,0 +1,6 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-09-17 08:16:36,1774,N/A,210,0.3,8,Binocs,1,1,1,April Howeling,Eye,Body,MarMam,Other,Active,NA,-1,No,NA,-129.373406578966,53.2355282209757,0.176282896725733,horizon,9.52841962814977,1,1,7.1326
+2021-09-17 18:08:13,1775,Otter (medium),345,7,3,Binocs,1,1,1,April Howeling,Eye,Blow,MarMam,Humpback,Travel-W,NA,-1,No,NA,-129.373968919109,53.2411118198411,0.485273430879476,shore,6.83307676371312,1,1,7.89226666666667
+2021-09-17 18:23:56,1776,Otter (medium),230,0.2,11,Binocs,1,1,1,April Howeling,Eye,Body,MarMam,Humpback,Travel-S,NA,-1,No,NA,-129.37369484556,53.2360906586101,0.140125570837864,shore,9.44316884707376,1,1,7.73066666666667
+2021-09-17 19:11:01,1777,CMP - Bangarangs (close),190,0.1,15,Binocs,1,1,1,April Howeling,Eye,Body,MarMam,Harbour seal,Active,NA,-1,No,NA,-129.372333990508,53.2360490793662,0.0961604381347087,horizon,9.56054941468675,1,1,7.18078333333333
+2021-09-17 19:18:33,1778,CMP - Bangarangs (far),200,9,2,Big Eyes,1,1,1,April Howeling,Eye,Blow,MarMam,Humpback,Active,NA,-1,No,NA,-129.383024111013,53.2189085759627,2.1307211191864,horizon,9.49580133612718,1,1,7.08385

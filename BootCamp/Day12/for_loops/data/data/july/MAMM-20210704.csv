@@ -1,0 +1,6 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-07-04 07:05:30,161,N/A,NA,0.3,-3.8,NA,2,2,2,Grace Baer,SpotBox,Body,MarMam,Harbour seal,Active,2021-07-04 07:04:29,-1,No,NA,NA,NA,NA,NA,NA,1,1,7.4035
+2021-07-04 07:19:31,163,Pitt - Mt Dory (far),NA,4.5,-2.88,NA,3,4,6,Grace Baer,SpotBox,Body,MarMam,Dall's porpoise,Milling,2021-07-04 07:18:58,-1,No,NA,NA,NA,NA,NA,NA,1,1,7.29038333333333
+2021-07-04 08:08:32,164,Farrant Shore (medium),NA,2.3,-1.67,NA,4,6,8,Grace Baer,SpotBox,Body,MarMam,Dall's porpoise,Milling,2021-07-04 08:07:27,2,No,NA,NA,NA,NA,NA,NA,1,1,6.98033333333333
+2021-07-04 08:17:39,166,Otter,NA,0.1,-1.8,NA,1,1,1,Grace Baer,Eye,Heard,MarMam,Humpback,Active,2021-07-04 08:15:57,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,1,6.93975
+2021-07-04 09:08:30,170,Fin-Keld Point (close),NA,0.3,-4.25,NA,2,2,2,Grace Baer,SpotBox,Body,MarMam,Harbour seal,Active,2021-07-04 09:07:20,-1,No,NA,NA,NA,NA,NA,NA,1,1,6.8

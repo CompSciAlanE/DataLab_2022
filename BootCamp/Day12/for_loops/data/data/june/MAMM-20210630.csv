@@ -1,0 +1,4 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-06-30 07:13:09,95,N/A,200,0,40,Binocs,1,1,1,Chenoah Shine,Eye,Body,MarMam,Harbour seal,Active,NA,-1,No,NA,-129.372270772713,53.2365917222332,0.0365102790506341,horizon,9.61310645448679,1,1,7.25995
+2021-06-30 07:22:17,97,N/A,352,1.6,13,Big Eyes,1,1,1,Chenoah Shine,BigEyes,Body,MarMam,Stellar's sea lion,Active,NA,-1,No,NA,-129.373140823288,53.2414035683872,0.506131549317363,shore,6.73019032235733,1,1,7.38296666666667
+2021-06-30 12:21:59,102,N/A,332,5.3,3.25,Big Eyes,3,4,6,Grace Baer,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,-1,No,NA,-129.385558364727,53.2520671693778,1.9118347224916,horizon,10.8052206633993,1,1,9.1722

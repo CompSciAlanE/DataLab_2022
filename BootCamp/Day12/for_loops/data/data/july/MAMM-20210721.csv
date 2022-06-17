@@ -1,0 +1,8 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-07-21 07:00:42,621,N/A,281,-0.1,7,Big Eyes,5,5,5,Janie Wray,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,-1,No,NA,-129.387589360577,53.2387029399497,1.05216456127202,shore,9.36359111047577,1,1,9.0718
+2021-07-21 07:12:02,623,N/A,160,-0.1,11,Big Eyes,4,4,4,Janie Wray,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,-1,No,NA,-129.368586072899,53.2311491553843,0.681084386765484,shore,5.10303558711552,1,1,8.91953333333333
+2021-07-21 08:21:31,625,N/A,279,-0.1,11,Big Eyes,1,1,1,Janie Wray,BigEyes,Body,MarMam,Stellar's sea lion,Travel-E,NA,-1,No,NA,-129.381426623383,53.2377853287045,0.630101082438699,shore,9.04019896836051,1,1,7.89838333333333
+2021-07-21 09:09:49,626,N/A,152,-0.1,19,Big Eyes,1,1,1,Janie Wray,BigEyes,Body,MarMam,Stellar's sea lion,Travel-N,NA,-1,No,NA,-129.369700353608,53.234217661663,0.338091112850094,shore,3.43781198884983,1,1,7.21693333333333
+2021-07-21 13:06:30,629,Fin-Keld Point (close),246,0.4,0.01,Big Eyes,1,1,1,Grace Baer,BigEyes,Body,MarMam,Harbour seal,Hauled out,NA,0,No,NA,-129.485738441548,53.2065599997351,8.28681293954106,horizon,9.31386373064525,1,1,6.815
+2021-07-21 17:10:15,636,CMP - Penders (medium),246,12.4,0.3,Big Eyes,1,1,1,Chenoah Shine,BigEyes,Body,MarMam,Humpback,Travel-E,NA,-1,No,NA,-129.451931745571,53.2155959006135,5.82190342096359,horizon,10.5370098081384,1,1,8.7225
+2021-07-21 18:17:02,637,Pitt - MtNicklBunk (far),245,6.8,0.075,Big Eyes,1,1,2,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,No,NA,-129.473210825065,53.208633695006,7.43228429221766,horizon,10.0960131799095,1,1,8.00766666666667

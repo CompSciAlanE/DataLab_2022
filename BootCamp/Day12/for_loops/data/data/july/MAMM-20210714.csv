@@ -1,0 +1,32 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-07-14 08:03:15,479,N/A,154,-0.1,9,Big Eyes,1,1,1,Janie Wray,BigEyes,Body,MarMam,Stellar's sea lion,Milling,NA,-1,No,NA,-129.366975695333,53.2306322326912,0.776075703928326,shore,3.52324025625478,1,1,9.17325
+2021-07-14 09:05:13,484,N/A,156,-0.1,15,Big Eyes,1,1,1,Janie Wray,BigEyes,Body,MarMam,Harbour seal,Hauled out,NA,-1,No,NA,-129.368701842476,53.2323543586035,0.553757230864723,shore,3.95580411538598,1,1,9.83173333333333
+2021-07-14 09:10:20,485,N/A,275,-0.1,6,Big Eyes,1,1,1,Janie Wray,BigEyes,Body,MarMam,Elephant seal,Resting,NA,-1,No,NA,-129.3911082286,53.2378946810826,1.27205994567637,shore,8.07882826126229,1,1,9.86633333333333
+2021-07-14 09:11:22,486,N/A,283,-0.1,4,Big Eyes,3,3,3,Janie Wray,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,-1,No,NA,-129.397657718812,53.2404310443296,1.74827845128213,shore,9.51454745355861,1,1,9.8743
+2021-07-14 17:02:32,492,N/A,161,2,0.5,Binocs,1,1,1,Grace Baer,Binocs,Body,MarMam,Humpback,Active,NA,-1,Can't check now,NA,-129.364432426012,53.2236010609052,1.56530116297097,shore,5.34518231075238,1,1,6.04666666666667
+2021-07-14 18:20:19,497,S Squally (medium),167,7.9,0.1,Big Eyes,1,1,1,Chenoah Shine,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,No,NA,-129.352889110189,53.1871390146337,5.68343078016198,shore,6.60788802728461,1,1,7.01285
+2021-07-14 20:28:13,498,N/A,-36.83,-0.1,0.13,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:28:12,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.11673333333333
+2021-07-14 20:29:00,499,N/A,-43.54,-0.1,0.78,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:28:59,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.123
+2021-07-14 20:29:22,500,N/A,-54.92,-0.1,1.32,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:29:20,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.12666666666667
+2021-07-14 20:29:46,501,N/A,-64.45,-0.1,1.33,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:29:45,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.13066666666667
+2021-07-14 20:30:14,502,N/A,-79.07,-0.1,0.21,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:30:13,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.13533333333333
+2021-07-14 20:31:09,503,N/A,-91.73,-0.1,-1.4,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:31:07,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.14405
+2021-07-14 20:31:29,504,N/A,-98.49,-0.1,-2.46,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:31:28,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.14638333333333
+2021-07-14 20:31:48,505,N/A,-107.95,-0.1,-3.93,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:31:47,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.1486
+2021-07-14 20:32:10,506,N/A,-116.58,-0.1,-5.03,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:32:08,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.1515
+2021-07-14 20:32:30,507,N/A,-125.45,-0.1,-5.96,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:32:29,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.1545
+2021-07-14 20:32:49,508,N/A,-134.54,-0.1,-6.51,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:32:47,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.15735
+2021-07-14 20:33:10,509,N/A,-144.54,-0.1,-6.63,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:33:09,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.16033333333333
+2021-07-14 20:33:31,510,N/A,-153.96,-0.1,-6.43,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:33:29,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.16313333333333
+2021-07-14 20:33:49,511,N/A,195.36,-0.1,-5.57,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:33:48,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.16553333333333
+2021-07-14 20:34:16,512,N/A,185.22,-0.1,-4.27,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:34:14,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.1686
+2021-07-14 20:36:38,513,N/A,167.36,-0.1,-2.07,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:36:37,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.18606666666667
+2021-07-14 20:36:56,514,N/A,153.64,-0.1,-0.51,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:36:55,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.18846666666667
+2021-07-14 20:37:14,515,N/A,136.71,-0.1,0.53,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:37:13,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.1911
+2021-07-14 20:37:42,516,N/A,114.48,-0.1,0.56,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:37:41,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.1953
+2021-07-14 20:37:58,517,N/A,86.83,-0.1,-1.14,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:37:57,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.1977
+2021-07-14 20:38:15,518,N/A,69.04,-0.1,-2.9,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:38:14,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.2005
+2021-07-14 20:38:33,519,N/A,36.64,-0.1,-4.45,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:38:32,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.2035
+2021-07-14 20:38:52,520,N/A,2,-0.1,-4.04,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:38:50,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.20666666666667
+2021-07-14 20:39:10,521,N/A,-18.67,-0.1,-1.75,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:39:08,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.20983333333333
+2021-07-14 20:39:29,522,N/A,-33.12,-0.1,0,,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,2021-07-14 20:39:29,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,8.21331666666667

@@ -1,0 +1,8 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-08-29 07:04:42,1484,N/A,245,-0.1,0.15,Big Eyes,1,1,1,Janie Wray,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,Definitely,NA,-129.456300164803,53.2133663671491,6.18944977814948,horizon,9.62716502612774,1,1,7.2812
+2021-08-29 07:16:19,1485,N/A,287,-0.1,0.6,Big Eyes,9,9,9,Janie Wray,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,-1,No,NA,-129.430775144439,53.247625143453,4.08799324374187,shore,9.61904294213073,1,1,7.3549
+2021-08-29 07:18:10,1486,N/A,289,-0.1,0.45,Big Eyes,1,1,1,Janie Wray,BigEyes,Blow,MarMam,Humpback,Milling,NA,-1,Can't check now,NA,-129.436913399142,53.2502427713236,4.56704549883452,shore,9.48020421165847,1,1,7.367
+2021-08-29 08:21:48,1488,N/A,253,-0.1,0.9,Big Eyes,10,10,10,Janie Wray,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,-1,No,NA,-129.422971185736,53.2275775913358,3.54443348241073,shore,8.80923444644249,1,1,7.7906
+2021-08-29 17:05:40,1489,N/A,141,0.1,22,Binocs,1,1,1,Chenoah Shine,Eye,Body,MarMam,Stellar's sea lion,Travel-S,NA,-1,No,NA,-129.371531129417,53.2364918918992,0.058442695070764,shore,3.26592088077906,1,1,6.416
+2021-08-29 17:17:54,1490,Pitt - Mt Dory (medium),319,9.2,0.25,Big Eyes,4,5,6,Chenoah Shine,Eye,Blow,MarMam,Fin,Milling,NA,-1,Can't check now,NA,-129.421670335447,53.2710305953785,5.034472724959,horizon,9.03710105020589,1,1,6.416
+2021-08-29 18:09:51,1491,Pitt - Mt Dory (medium),320,0.2,12,Big Eyes,1,1,1,Grace Baer,Eye,Blow,MarMam,Humpback,Travel-N,NA,0,No,NA,-129.376576432656,53.2401047493215,0.465597369036996,horizon,8.89910363111063,1,1,6.22155

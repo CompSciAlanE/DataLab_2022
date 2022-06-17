@@ -1,0 +1,7 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-08-17 07:12:24,1211,N/A,152,-0.1,0.075,Big Eyes,4,4,4,Janie Wray,BigEyes,Blow,MarMam,Humpback,BubbleNet,NA,-1,Definitely,NA,-129.348809142724,53.2106996583821,3.30212458552251,shore,3.4367794639737,1,1,7.2126
+2021-08-17 07:22:08,1212,N/A,165,-0.1,0.025,Big Eyes,3,3,3,Janie Wray,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,Can't check now,NA,-129.34854043263,53.1843108824725,6.05887443197131,shore,6.28822953762757,1,1,7.14606666666667
+2021-08-17 08:01:47,1213,N/A,160,-0.1,0.1,Big Eyes,4,4,4,Janie Wray,BigEyes,Blow,MarMam,Humpback,BubbleNet,NA,-1,Definitely,NA,-129.348243930494,53.1976964821322,4.64271345126668,shore,5.10572760380805,1,1,6.98186666666667
+2021-08-17 08:17:36,1216,N/A,278,8.4,0.05,Big Eyes,5,5,5,Janie Wray,BigEyes,Blow,MarMam,Humpback,BubbleNet,NA,-1,Can't check now,NA,-129.479206010288,53.2458625733831,7.20538829232708,shore,8.85599468178849,1,1,6.946
+2021-08-17 09:06:56,1219,N/A,284,7.1,0.025,Big Eyes,6,6,6,Janie Wray,BigEyes,Blow,MarMam,Humpback,BubbleNet,NA,-1,Definitely,NA,-129.486150123101,53.2538671188753,7.83039775721869,horizon,9.40895409613229,1,1,6.95486666666667
+2021-08-17 09:08:45,1220,N/A,284,-0.1,0.01,Big Eyes,6,6,6,Janie Wray,BigEyes,Blow,MarMam,Humpback,BubbleNet,NA,-1,Definitely,NA,-129.494153342134,53.2550534823495,8.37979792319856,horizon,9.41259483395919,1,1,6.96025

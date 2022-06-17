@@ -1,0 +1,5 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-09-22 10:04:09,1787,N/A,228,-0.1,26,Big Eyes,1,1,1,Janie Wray,BigEyes,Blow,MarMam,Humpback,Travel-N,NA,-1,Can't check now,,-129.375499383695,53.2350590276768,0.306184934331331,shore,9.58903979257395,1,1,8.4563
+2021-09-22 10:16:05,1788,N/A,169,-0.1,17,Big Eyes,6,6,6,Janie Wray,BigEyes,Blow,MarMam,Orca,Travel-N,NA,-1,Can't check now,N. Resident,-129.370819071752,53.2330073642265,0.441321838503912,shore,6.98756158572008,1,1,8.25158333333333
+2021-09-22 18:11:01,1789,N/A,156,-0.1,1,Big Eyes,1,1,1,Janie Wray,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,Can't check now,,-129.355878557689,53.2151153447227,2.65373534894474,shore,3.95146479978255,1,1,8.90428333333333
+2021-09-22 19:06:37,1790,N/A,258,-0.1,1.2,Big Eyes,1,1,1,Janie Wray,BigEyes,Body,MarMam,Elephant seal,Active,NA,-1,No,,-129.423864618035,53.2303013321613,3.52612288352486,shore,8.51946641619491,1,1,9.57946666666667

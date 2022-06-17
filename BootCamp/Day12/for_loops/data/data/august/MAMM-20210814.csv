@@ -1,0 +1,4 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-08-14 08:03:34,1160,N/A,335,-0.1,20,Big Eyes,1,1,1,Janie Wray,BigEyes,Body,MarMam,Harbour seal,Active,NA,-1,No,NA,-129.374440925098,53.2399259981749,0.371582506731847,horizon,10.0985344492213,1,1,8.01166666666667
+2021-08-14 13:14:40,1163,N/A,187,2.3,3,Big Eyes,1,1,1,Grace Baer,Eye,Body,MarMam,Humpback,Travel-N,NA,0,No,NA,-129.375404779209,53.2207095536494,1.81537289215473,horizon,10.1415093151587,1,1,8.08
+2021-08-14 18:03:05,1164,S Squally (far),170,6.5,0.3,Big Eyes,1,1,1,Chenoah Shine,Eye,Body,MarMam,Humpback,Travel-N,NA,0,No,NA,-129.360205299161,53.1965818340585,4.55619107387327,shore,8.32354383000103,1,1,5.99925

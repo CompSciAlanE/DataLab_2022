@@ -1,0 +1,7 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-07-19 07:05:20,591,N/A,137,-0.1,14,Big Eyes,1,1,1,Janie Wray,BigEyes,Body,MarMam,Stellar's sea lion,Travel-E,NA,-1,No,NA,-129.367565669581,53.2340004044566,0.441220966886704,shore,3.27995826095073,1,1,7.25166666666667
+2021-07-19 07:09:39,592,N/A,360,-0.1,0.01,Binocs,5,5,5,Janie Wray,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,-1,No,NA,-129.3720833,53.2936407041208,6.31471410025266,shore,6.86948292354966,1,1,7.21545
+2021-07-19 08:05:02,593,N/A,291,-0.1,11,Big Eyes,1,1,1,Janie Wray,BigEyes,Blow,MarMam,Humpback,Travel-S,NA,-1,Can't check now,NA,-129.379855197348,53.2386853065626,0.554503243308977,shore,9.2392046867189,1,1,6.89186666666667
+2021-07-19 09:05:42,597,N/A,234,-0.1,6,Big Eyes,3,3,3,Janie Wray,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,-1,No,NA,-129.383347368509,53.2320013863611,0.927398546301256,shore,9.17763270141782,1,1,6.8587
+2021-07-19 12:03:56,600,N/A,135,-0.1,2,Big Eyes,3,3,3,Janie Wray,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,-1,No,NA,-129.353529980637,53.2257942541641,1.74769397630253,shore,3.24632955148442,1,1,8.01753333333333
+2021-07-19 19:16:20,608,Pitt - MtNicklBunk (far),248,7.4,0.2,Big Eyes,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,No,NA,-129.442435505635,53.219867236145,5.05406202010737,horizon,8.64107959980224,1,1,5.866

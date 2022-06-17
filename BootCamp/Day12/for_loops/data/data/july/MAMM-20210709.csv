@@ -1,0 +1,55 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-07-09 07:06:42,254,CMP - Penders (medium),192.37,9.5,-3.76,,2,3,5,Chenoah Shine,SpotBox,Body,MarMam,Dall's porpoise,Active,2021-07-09 07:06:05,-1,No,NA,NA,NA,NA,NA,NA,1,1,10.1882
+2021-07-09 07:14:35,256,Pitt - Union Pass (medium),22.96,4.1,-2.14,,1,1,1,Chenoah Shine,SpotBox,Body,MarMam,Harbour seal,Active,2021-07-09 07:13:49,-1,No,NA,NA,NA,NA,NA,NA,1,1,10.1698333333333
+2021-07-09 08:05:30,257,Otter (medium),228.05,5.6,0.52,,3,4,6,Chenoah Shine,SpotBox,Body,MarMam,Dall's porpoise,Active,2021-07-09 08:03:48,-1,No,NA,NA,NA,NA,NA,NA,1,1,9.8755
+2021-07-09 08:07:39,258,CMP - Bangarangs (medium),228.05,0.1,0.52,,1,1,2,Chenoah Shine,SpotBox,Body,MarMam,Harbour seal,Active,2021-07-09 08:03:48,-1,No,NA,NA,NA,NA,NA,NA,1,1,9.85745
+2021-07-09 15:08:13,263,N/A,83.37,-0.1,2.25,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:08:08,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.33338333333333
+2021-07-09 15:09:07,264,N/A,90,-0.1,2.47,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:09:05,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.34316666666667
+2021-07-09 15:09:37,265,N/A,100.28,-0.1,2.34,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:09:34,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.34816666666667
+2021-07-09 15:10:15,266,N/A,109.9,-0.1,1.71,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:10:13,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.3545
+2021-07-09 15:10:56,267,N/A,119.42,-0.1,0.66,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:10:54,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.36133333333333
+2021-07-09 15:11:56,268,N/A,128.36,-0.1,-0.54,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:11:53,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.3732
+2021-07-09 15:12:25,269,N/A,136.92,-0.1,-1.89,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:12:24,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.37775
+2021-07-09 15:13:09,270,N/A,145.84,-0.1,-3.12,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:13:07,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.3845
+2021-07-09 15:13:33,271,N/A,154.26,-0.1,-4.25,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:13:32,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.3885
+2021-07-09 15:13:59,272,N/A,163.75,-0.1,-5.13,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:13:58,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.39283333333333
+2021-07-09 15:14:22,273,N/A,172.74,-0.1,-5.65,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:14:20,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.39666666666667
+2021-07-09 15:14:56,274,N/A,182.29,-0.1,-5.7,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:14:54,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.40233333333333
+2021-07-09 15:15:24,275,N/A,191.71,-0.1,-5.44,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:15:23,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.4066
+2021-07-09 15:16:22,276,N/A,202.85,-0.1,-4.22,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:16:21,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.4153
+2021-07-09 15:16:49,277,N/A,213.65,-0.1,-2.85,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:16:47,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.41935
+2021-07-09 15:17:29,278,N/A,226.3,-0.1,-2.23,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:17:28,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.4268
+2021-07-09 15:17:55,279,N/A,241.8,-0.1,-0.43,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:17:53,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.432
+2021-07-09 15:18:19,280,N/A,260.13,-0.1,0.76,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:18:17,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.43521666666667
+2021-07-09 15:18:47,281,N/A,286.04,-0.1,0.28,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:18:45,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.43848333333333
+2021-07-09 15:19:15,282,N/A,322.84,-0.1,-2.41,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:19:14,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.44225
+2021-07-09 15:20:37,283,N/A,338.81,-0.1,-3.84,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:20:35,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.45578333333333
+2021-07-09 15:20:58,284,N/A,360,-0.1,-4.56,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:20:57,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.45963333333333
+2021-07-09 15:21:27,285,N/A,37.48,-0.1,-3.37,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:21:25,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.4645
+2021-07-09 15:22:31,286,N/A,54.02,-0.1,-1.54,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:22:29,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.47465
+2021-07-09 15:22:58,287,N/A,68.11,-0.1,0.1,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:22:56,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.4787
+2021-07-09 15:23:42,288,N/A,80.29,-0.1,1.18,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:23:40,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.486
+2021-07-09 15:25:06,289,N/A,86.14,-0.1,1.52,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:25:03,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.5
+2021-07-09 15:25:33,290,N/A,96.07,-0.1,1.59,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:25:32,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.5045
+2021-07-09 15:26:04,291,N/A,105.66,-0.1,1.22,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:26:02,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.50946666666667
+2021-07-09 15:26:38,292,N/A,114.89,-0.1,0.43,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:26:36,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.51343333333333
+2021-07-09 15:27:10,293,N/A,124.13,-0.1,-0.75,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:27:08,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.51766666666667
+2021-07-09 15:27:42,294,N/A,133.87,-0.1,-2.15,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:27:40,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.523
+2021-07-09 15:28:10,295,N/A,143.18,-0.1,-3.53,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:28:08,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.52766666666667
+2021-07-09 15:28:32,296,N/A,152.67,-0.1,-4.79,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:28:30,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.53133333333333
+2021-07-09 15:28:54,297,N/A,162.39,-0.1,-5.77,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:28:52,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.535
+2021-07-09 15:29:21,298,N/A,173.03,-0.1,-6.31,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:29:19,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.5395
+2021-07-09 15:29:46,299,N/A,183.19,-0.1,-6.43,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:29:44,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.54366666666667
+2021-07-09 15:30:11,300,N/A,194.56,-0.1,-5.84,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:30:10,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.54801666666667
+2021-07-09 15:30:33,301,N/A,204.69,-0.1,-4.96,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:30:31,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.55205
+2021-07-09 15:30:55,302,N/A,216.82,-0.1,-3.42,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:30:53,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.55608333333333
+2021-07-09 15:31:20,303,N/A,230.64,-0.1,-1.65,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:31:17,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.56
+2021-07-09 15:31:50,304,N/A,245.28,-0.1,-0.11,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:31:49,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.5645
+2021-07-09 15:32:17,305,N/A,266.53,-0.1,0.89,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:32:16,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.56826666666667
+2021-07-09 15:32:47,306,N/A,296.09,-0.1,-0.28,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:32:45,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.57226666666667
+2021-07-09 15:33:09,307,N/A,330.92,-0.1,-2.95,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:33:08,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.5752
+2021-07-09 15:33:35,308,N/A,345.51,-0.1,-4.03,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:33:33,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.57866666666667
+2021-07-09 15:34:03,309,N/A,360,-0.1,-4.44,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:34:02,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.5825
+2021-07-09 15:34:29,310,N/A,39.36,-0.1,-3.1,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:34:28,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.58683333333333
+2021-07-09 15:34:56,311,N/A,54.96,-0.1,-1.38,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:34:55,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.59133333333333
+2021-07-09 15:35:22,312,N/A,67.95,-0.1,0.14,,1,1,1,Eric Keen,BigEyes,Blow,MarMam,Humpback,Active,2021-07-09 15:35:20,1,Can't check now,NA,NA,NA,NA,NA,NA,1,0,7.5964

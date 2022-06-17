@@ -1,0 +1,5 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-07-23 09:01:57,663,N/A,223,0.1,40,Binocs,1,1,1,Chenoah Shine,Eye,Body,MarMam,Stellar's sea lion,Travel-S,NA,-1,No,NA,-129.372556072692,53.2365965636145,0.0461740347867329,shore,10.0758997200015,1,1,9.1908
+2021-07-23 18:09:34,664,CMP - Ferrybough Pt (far),186,5,0.25,Big Eyes,1,1,1,Grace Baer,BigEyes,Body,MarMam,Humpback,Active,NA,-1,No,NA,-129.381689571091,53.1821974528758,6.12137676618419,horizon,10.5349761031846,1,1,8.71913333333333
+2021-07-23 19:15:40,665,CMP - Ferrybough Pt (far),183,7.2,0.2,Big Eyes,1,1,1,Chenoah Shine,BigEyes,Body,MarMam,Humpback,Active,NA,-1,No,NA,-129.37726021925,53.1777783788302,6.58870521677151,horizon,10.6842659063903,1,1,8.968
+2021-07-23 19:20:23,666,N/A,227,4.8,1.1,Big Eyes,1,1,1,Chenoah Shine,BigEyes,Body,MarMam,Humpback,Active,NA,-1,Possibly,NA,-129.41128139113,53.2150164334297,3.56998356397629,shore,9.67011119659399,1,1,8.93731666666667

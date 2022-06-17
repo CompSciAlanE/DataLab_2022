@@ -1,0 +1,3 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-06-28 17:11:01,75,Fin - North Shore (close),350,0.1,40,Big Eyes,1,1,1,Grace Baer,Eye,Body,MarMam,Harbour seal,Active,NA,0,Possibly,NA,-129.372342239563,53.2377789199104,0.0993246295945421,shore,0.304347049504742,1,1,5.9101
+2021-06-28 18:03:59,76,Fin - North Shore (close),159,0.7,1.6,Binocs,1,1,1,Grace Baer,Binocs,Body,MarMam,Stellar's sea lion,Active,NA,0,No,NA,-129.368494225342,53.2313039826438,0.667086427350815,shore,4.2929256435722,1,1,6.3788

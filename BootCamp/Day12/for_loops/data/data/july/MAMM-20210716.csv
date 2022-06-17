@@ -1,0 +1,6 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-07-16 07:14:50,536,N/A,145,-0.1,20,Big Eyes,1,1,1,Janie Wray,BigEyes,Body,MarMam,Stellar's sea lion,Travel-W,NA,-1,No,NA,-129.369351499748,53.234564941487,0.31723888356663,shore,3.22450320448411,1,1,7.11883333333333
+2021-07-16 12:04:39,538,N/A,226,4.8,8,Big Eyes,1,1,1,Chenoah Shine,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,1,No,NA,-129.382716199754,53.2307540060703,0.984569554290993,shore,9.8112496063163,1,1,9.5144
+2021-07-16 17:22:29,541,N/A,283,-0.1,0.8,Big Eyes,4,6,8,Grace Baer,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,-1,No,NA,-129.41666314056,53.2430515649452,3.04749726275689,horizon,8.61826588435126,1,1,5.83506666666667
+2021-07-16 19:10:24,545,N/A,242,3.4,3,Big Eyes,2,3,5,Chenoah Shine,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,1,No,NA,-129.391896289855,53.2305932258282,1.49466497962082,horizon,9.0496282360339,1,1,6.4338
+2021-07-16 19:16:11,546,N/A,300,6.5,1,Can't,1,2,3,Chenoah Shine,BigEyes,Body,MarMam,Dall's porpoise,Active,NA,-1,No,NA,NA,NA,NA,NA,NA,1,1,6.47965

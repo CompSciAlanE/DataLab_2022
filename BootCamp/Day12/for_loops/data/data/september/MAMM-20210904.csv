@@ -1,0 +1,6 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-09-04 08:03:31,1573,N/A,235,0.6,14,Binocs,2,2,2,April Howeling,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,No,NA,-129.373508975331,53.2363025199617,0.1159270778387,shore,9.13314124234951,1,1,8.10115
+2021-09-04 08:18:12,1574,N/A,252,0.6,14,Binocs,1,1,1,April Howeling,BigEyes,Blow,MarMam,Humpback,Milling,NA,-1,No,NA,-129.373697752573,53.2365860313994,0.113070090360888,shore,8.94618555074444,1,1,7.8994
+2021-09-04 09:17:01,1575,N/A,255,0.1,35,Binocs,2,2,2,April Howeling,BigEyes,Body,MarMam,Stellar's sea lion,Active,NA,-1,No,NA,-129.372674508249,53.2368051866617,0.0407685701794653,shore,8.89807354129239,1,1,7.07893333333333
+2021-09-04 14:05:38,1576,N/A,197,2.2,4,Binocs,1,1,1,Chenoah Shine,Eye,Blow,MarMam,Humpback,Active,NA,-1,Definitely,NA,-129.373563050119,53.2340031865071,0.337117903393232,horizon,9.4802053940456,1,1,7.0606
+2021-09-04 18:17:57,1577,N/A,205,2,15,Binocs,1,1,1,Chenoah Shine,Eye,Blow,MarMam,Humpback,Active,NA,-1,No,NA,-129.372808291233,53.2359694685943,0.11426501188048,horizon,10.4312601784772,1,1,8.5483

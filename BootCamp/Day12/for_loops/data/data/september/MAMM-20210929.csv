@@ -1,0 +1,3 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-09-29 17:07:33,1813,Pitt - Mt Dory (medium),302,4.7,0.5,Binocs,1,1,1,Eadin O'Mahony,Eye,Blow,MarMam,Humpback,Travel-S,NA,-1,No,NA,-129.393773253834,53.2450098388131,1.70359717941946,horizon,8.96980471429202,1,1,6.3208
+2021-09-29 17:09:50,1814,CMP - Ferrybough Pt (far),214,10,0.01,Binocs,1,1,1,Eadin O'Mahony,Eye,Splash,MarMam,Humpback,Robust,NA,-1,No,NA,-129.429985349515,53.1855080962738,6.89701339255705,horizon,8.96462353176376,1,1,6.3135

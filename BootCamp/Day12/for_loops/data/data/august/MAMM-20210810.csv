@@ -1,0 +1,5 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-08-10 14:19:37,1093,Pitt - Twartz (far),296,-0.1,4,Big Eyes,2,3,4,Grace Baer,BigEyes,Splash,MarMam,Dall's porpoise,Other,NA,-1,No,NA,-129.386645321024,53.2411499376371,1.07917092883253,horizon,8.49185732688476,1,1,5.66515
+2021-08-10 18:03:11,1096,CMP - Bangarangs (medium),216,8.7,0.15,Big Eyes,2,2,2,Chenoah Shine,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,Can't check now,NA,-129.430817081319,53.188502147167,6.6557661224597,horizon,10.2206298658104,1,1,8.20656666666667
+2021-08-10 18:11:14,1097,CMP - Bangarangs (medium),170,12.3,0.01,Big Eyes,5,6,7,Chenoah Shine,BigEyes,Blow,MarMam,Humpback,Feeding,NA,-1,Possibly,NA,-129.350948544986,53.1651602848465,8.10691964943788,shore,8.33111745079687,1,1,8.3185
+2021-08-10 19:02:21,1098,N/A,351,1,0.01,Binocs,1,1,1,Grace Baer,BigEyes,Body,MarMam,Harbour seal,Hauled out,NA,-1,No,NA,-129.387076774479,53.2935568491197,6.3840853485437,shore,6.78600969887678,1,1,8.65215

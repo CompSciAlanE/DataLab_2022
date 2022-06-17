@@ -1,0 +1,5 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-07-06 08:05:36,197,Fin - North Shore (close),NA,0.2,1.38,NA,1,2,2,Chenoah Shine,SpotBox,Heard,MarMam,Stellar's sea lion,Travel-S,2021-07-06 08:04:27,-1,No,NA,NA,NA,NA,NA,NA,1,1,8.31
+2021-07-06 08:10:29,198,Fin - North Shore (close),NA,11.3,1.38,NA,1,5,5,Chenoah Shine,Binocs,Body,MarMam,Dall's porpoise,Travel-S,2021-07-06 08:04:27,-1,No,NA,NA,NA,NA,NA,NA,1,1,8.2512
+2021-07-06 08:11:55,199,S Squally (far),NA,11.8,-4.75,NA,1,2,3,Chenoah Shine,SpotBox,Body,MarMam,Dall's porpoise,Active,2021-07-06 08:11:06,-1,No,NA,NA,NA,NA,NA,NA,1,1,8.23491666666667
+2021-07-06 17:57:04,209,N/A,NA,0,8.78,NA,1,1,1,Chenoah Shine,Eye,Heard,MarMam,Harbour seal,Active,2021-07-06 17:56:51,-1,Definitely,NA,NA,NA,NA,NA,NA,1,1,8.3476

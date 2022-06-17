@@ -1,0 +1,6 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-08-21 07:10:31,1270,N/A,295,-0.1,1.6,Big Eyes,1,1,1,Janie Wray,BigEyes,Blow,MarMam,Humpback,Active,NA,-1,Can't check now,NA,-129.416190719113,53.2492017413207,3.24163926445984,shore,9.50648931858358,1,1,10.2914166666667
+2021-08-21 07:13:48,1272,N/A,227,-0.1,2.4,Big Eyes,1,1,1,Janie Wray,BigEyes,Blow,MarMam,Humpback,Robust,NA,-1,Can't check now,NA,-129.400115356759,53.2212515312505,2.55303205513341,shore,9.67453386703018,1,1,10.2644
+2021-08-21 07:17:20,1273,N/A,295,-0.1,35,Big Eyes,1,1,1,Janie Wray,BigEyes,Body,MarMam,Stellar's sea lion,Travel-W,NA,-1,No,NA,-129.375865247584,53.2379554392209,0.277951208890139,shore,9.5084293424889,1,1,10.2336666666667
+2021-08-21 08:06:46,1274,N/A,245,-0.1,0.25,Big Eyes,4,4,4,Janie Wray,BigEyes,Blow,MarMam,Humpback,BubbleNet,NA,-1,Definitely,NA,-129.46105542435,53.2120357860286,6.53893354526726,horizon,11.1005823411838,1,1,9.6805
+2021-08-21 08:21:19,1277,N/A,159,-0.1,0.1,Big Eyes,1,1,1,Janie Wray,BigEyes,Blow,MarMam,Humpback,Milling,NA,-1,Can't check now,NA,-129.350146419537,53.2026947469773,4.07731720068991,shore,4.29372083491109,1,1,9.46535

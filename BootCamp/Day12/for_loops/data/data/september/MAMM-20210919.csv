@@ -1,0 +1,3 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-09-19 12:11:37,1781,CMP - Bangarangs (close),188,0.2,40,Big Eyes,4,5,7,Chenoah Shine,BigEyes,Body,MarMam,Dall's porpoise,Milling,NA,-1,No,NA,-129.372374384312,53.2356603867841,0.139313200592068,horizon,8.56396360163432,1,1,5.76176666666667
+2021-09-19 12:12:48,1782,Gil Mtn (medium),156,8.9,0.01,Big Eyes,1,1,1,Chenoah Shine,BigEyes,Blow,MarMam,Humpback,Travel-S,NA,-1,Can't check now,NA,-129.348164238506,53.2047439186989,3.9170545846947,shore,3.95111198657235,1,1,5.7602

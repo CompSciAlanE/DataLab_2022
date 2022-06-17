@@ -1,0 +1,7 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-07-05 08:06:48,180,N/A,NA,0.1,7.56,NA,1,1,1,Grace Baer,Eye,Body,MarMam,Stellar's sea lion,Active,2021-07-05 08:06:26,0,Can't check now,NA,NA,NA,NA,NA,NA,1,1,7.4158
+2021-07-05 08:13:53,181,N/A,NA,0.2,-2.39,NA,4,6,8,Grace Baer,Eye,Body,MarMam,Dall's porpoise,Milling,2021-07-05 08:13:07,-1,Possibly,NA,NA,NA,NA,NA,NA,1,1,7.35105
+2021-07-05 09:16:09,183,N/A,NA,3,1.97,NA,1,1,2,Grace Baer,SpotBox,Body,MarMam,Dall's porpoise,Milling,2021-07-05 09:14:48,-1,No,NA,NA,NA,NA,NA,NA,1,1,6.88455
+2021-07-05 14:15:40,190,CMP - Fanny-Paige Pt (far),NA,7.4,-0.88,NA,4,5,7,Grace Baer,SpotBox,Blow,MarMam,Humpback,Active,2021-07-05 14:12:10,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,1,7.92333333333333
+2021-07-05 19:13:39,193,Farrant Shore (close),NA,6.2,-0.39,NA,1,1,1,Chenoah Shine,SpotBox,Splash,MarMam,Humpback,Travel-S,2021-07-05 19:12:14,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,1,7.31685
+2021-07-05 19:25:38,194,CMP - Fanny-Paige Pt (far),NA,8.5,-0.14,NA,1,1,2,Chenoah Shine,SpotBox,Blow,MarMam,Humpback,Travel-E,2021-07-05 19:24:21,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,1,7.1973

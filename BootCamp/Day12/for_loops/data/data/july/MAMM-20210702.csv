@@ -1,0 +1,4 @@
+Date,SitNum,Landmark,Bearing,Zone,Reticle,How.Measured,Min,Best,Max,Observer,How.Seen,Cue,Class,Species,Behavior,Demo,Calves,Acoustic,Comment,X,Y,KM,Boundary,Boundary.KM,Effort.Obs,Eff.Scan,Eye.Height
+2021-07-02 07:20:44,124,N/A,NA,4.6,0.81,NA,2,3,4,Grace Baer,SpotBox,Body,MarMam,Dall's porpoise,Milling,2021-07-02 07:20:24,-1,No,NA,NA,NA,NA,NA,NA,1,1,6.67373333333333
+2021-07-02 12:12:02,126,Gil Mtn (medium),NA,4.2,-5.58,NA,2,4,5,Chenoah Shine,SpotBox,Body,MarMam,Dall's porpoise,Active,2021-07-02 12:10:55,-1,No,NA,NA,NA,NA,NA,NA,1,1,8.952
+2021-07-02 17:07:29,132,N/A,NA,3.1,-2.41,NA,1,1,1,Grace Baer,BigEyes,Blow,MarMam,Baleen spp.,Active,2021-07-02 17:05:04,-1,Can't check now,NA,NA,NA,NA,NA,NA,1,1,6.95765
