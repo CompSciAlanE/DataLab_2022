@@ -1,0 +1,25 @@
+---
+title: "stircar"
+author: "Alan Espinoza"
+date: '2022-06-21'
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set( warning = F, message = F)
+```
+
+
+```{r, echo=FALSE}
+library(tidyverse)
+
+df<- read.csv("stircars.csv", stringsAsFactors = F, header = F)
+df<-df %>% rename( TimeStamp = V1 , Color = V2, CarType = V3,  Event = V4)
+
+ggplot( data = df, aes(x = CarType, fill = Color))+
+  geom_bar()+
+  labs(title = " Car types count by color",
+       subtitle = " At stirlings",
+       caption = "Temi, Kenedi, Alan | DataLab 2022") +
+  scale_fill_manual(values = c("Black","Blue","Green","Grey","Red","White","Yellow"))
+
+```

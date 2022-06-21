@@ -1,0 +1,23 @@
+---
+title: "data_review"
+author: "Alan Espinoza"
+date: '2022-06-21'
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, include = F, warning = F, message = F)
+```
+
+
+```{r}
+library(tidyverse)
+
+df<- read.csv("stircars.csv", stringsAsFactors = F, header = F)
+df<-df %>% rename( TimeStamp = V1 , Color = V2, CarType = V3,  Event = V4)
+
+ggplot( data = df, aes(x = CarType, color = Color))+
+  geom_col()
+
+```
