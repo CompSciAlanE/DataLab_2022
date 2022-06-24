@@ -1,9 +1,6 @@
-SignedAgreementAlanEspinoza.pdf
-CompletionReport.pdf
-CompletionCertificate.pdf
+*.pdf
 .Rhistory
 *.jpeg
 *.jpg
 *.png
-discharges_anon
 *.csv
